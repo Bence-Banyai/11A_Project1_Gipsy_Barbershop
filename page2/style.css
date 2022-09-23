@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+#wrapper{
+    
+    background-color: #222;
+    overflow: hidden;
+}
+
+
+
+#menu {
+    width: 1000px;
+   
+}
+
+#menu ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+
+    background-color: #bbb;
+    overflow: hidden;
+}
+
+#menu ul li {
+    float: left;
+    border-right: 1px solid #eee;
+}
+#menu ul li:last-child {
+    border: none;
+    /* float: right; */
+}
+#menu ul li a {
+  display: block;
+  color: #fff;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#menu ul li a:hover {
+   background-color: #222;
+}
+
