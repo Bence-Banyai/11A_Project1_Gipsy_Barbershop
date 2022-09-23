@@ -3,6 +3,10 @@ body{
     background-color: #222;
 }
 
+img{
+    margin: 0;
+    padding: 0;
+}
 
 #banner {
     background-color: aliceblue;
@@ -15,13 +19,13 @@ body{
 
 #wrapper{
     
-    background-color: #222;
+    background-color: black;
     overflow: hidden;
 }
 
 #menu_wrapper{
     width: 100%;
-    background-color: #bbb;
+    background-color: black;
     overflow: hidden;
 }
 
@@ -35,13 +39,13 @@ body{
     list-style-type: none; 
     padding: 0; 
     margin: auto;
-    background-color: #bbb;
+    background-color: black;
     overflow: hidden;
 }
 
 #menu ul li {
     float: left;
-    border-right: 1px solid #eee;
+    border-right: 5px solid gold;
 }
 
 #menu ul li a {
@@ -54,10 +58,53 @@ body{
 }
 
 #menu ul li a:hover {
-   background-color: #222;
+   background-color: gold;
+   color: black;
+   
 }
 
-#menu ul li :first-child{
-    border-left: 1px solid #eee;
+#menu ul li:first-child{
+    border-left: 5px solid gold;
+}
+
+#sor1{
+    width: 100%; 
+}
+
+#oszlop1{
+    width: 100%
+}
+
+#oszlop1 img{
+    width: calc(25% - 10px);
+    float: left;
+    border: 5px solid gold;
+    height: 500px;
+    
+}
+
+
+#intro{
+    border-top: 5px solid gold;
+    border-left: 5px solid gold;
+    border-right: 5px solid gold;
+    border-bottom: 2px solid gold;
+}
+
+#intro h1{
+    color:gold;
+    text-align: center;
+    font-weight: bold;
+    font-style:italic ;
+    text-decoration: underline;
+}
+
+#intro p{
+    color:gold;
+    text-align: center;
+    font-weight: bold;
+    font-style:italic ;
+    text-decoration: underline;
+    font-size: larger;
 }
 
