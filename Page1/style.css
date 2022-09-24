@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    height: 400px;
+    transition: background 1s ease;
+    margin: 0;
+}
+
+.content {
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+#banner {
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+    background: url('img/BannerImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y:-350px;
+}
+#banner h1{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    padding-top: 40px;
+    text-shadow: 10px 10px rgb(83, 83, 83);
+    margin-top: 10px;
+
+}   
+#menu-wrapper {
+    width: 100%;
+    background-color:rgb(83, 83, 83);
+}
+#menu{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#partner h1{
+    text-align: center;
+
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color:rgb(83, 83, 83);
+    overflow: hidden;
+
+
+
+}
+#menu ul li{
+    float: left ;
+    border-left: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#menu ul li:last-child{
+    float: left ;
+    border-right: 1px solid #ccc;
+}
+
+
+#menu ul li a{
+    display: block;
+    color: #fff;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    background-color: rgb(255, 123, 0);
+}
+.oszlop4 {
+    float: left;
+    margin: 5px;
+    width: calc(25% - 10px);
+}
+#footer p {
+    color: white;
+    font-style: italic;
+    text-align: center;
+    background-color:rgb(255, 123, 0);
+    min-height: 200px;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+.clear {
+    clear: both;
+}
+.Kepeksor {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 300px;
+}
+.section1 {
+    background-color: #1C6758;
+    height: 450px;     
+
+  }
+.section2 {
+    background: linear-gradient(#3D8361, #D6CDA4);
+    height: 450px;
+  }
+.oszlop4 {
+    float: left;
+    margin: 5px;
+    width: calc(25% - 10px);
+    background-color: #D6CDA4;
+}
+.oszlop4 img {
+    width: calc(100% - 10px);
+    margin: 5px;
+}
+.oszlop4 p {
+    margin: 5px;
+    padding: 5px;
+    background-color: aliceblue;
+    text-align: justify;
+    border-top: 1px solid white;
+}
+.oszlop42 {
+    float: left;
+    margin: 5px;
+    width: calc(25% - 10px);
+    background-color: #EEF2E6;
+}
+.oszlop42 img {
+    width: calc(100% - 10px);
+    margin: 5px;
+}
+.oszlop42 p {
+    margin: 5px;
+    padding: 5px;
+    background-color: lightblue;
+    text-align: justify;
+    border-top: 1px solid white;
+}
+.main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 500px;
+    overflow: hidden;
+}
+.margin{
+    min-height: 30px;
+}
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
