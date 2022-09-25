@@ -82,6 +82,10 @@ body {
     float: left;
     margin: 5px;
     width: calc(25% - 10px);
+    border-radius: 20px;
+}
+.oszlop4 img {
+    border-radius: 20px;
 }
 #footer p {
     color: white;
@@ -122,10 +126,11 @@ body {
 }
 .oszlop4 p {
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
     background-color: aliceblue;
     text-align: justify;
     border-top: 1px solid white;
+    border-radius: 20px;
 }
 .oszlop42 {
     float: left;
