@@ -36,7 +36,7 @@ body {
     background-color:rgb(83, 83, 83);
 }
 #menu{
-    width: 350px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
 
@@ -87,15 +87,15 @@ body {
 .oszlop4 img {
     border-radius: 20px;
 }
-#footer p {
-    color: white;
+/* #footer p {
+    color: rgb(0, 0, 0);
     font-style: italic;
     text-align: center;
-    background-color:rgb(255, 123, 0);
+    background-color:rgb(7, 255, 152);
     min-height: 200px;
     padding-top: 5px;
     margin-bottom: 0;
-}
+} */
 .clear {
     clear: both;
 }
@@ -107,12 +107,14 @@ body {
 }
 .section1 {
     background-color: #1C6758;
-    height: 450px;     
+    height: 450px; 
+    border-radius: 20px;    
 
   }
 .section2 {
     background: linear-gradient(#3D8361, #D6CDA4);
     height: 450px;
+    border-radius: 20px;
   }
 .oszlop4 {
     float: left;
@@ -137,10 +139,12 @@ body {
     margin: 5px;
     width: calc(25% - 10px);
     background-color: #EEF2E6;
+    border-radius: 20px;
 }
 .oszlop42 img {
     width: calc(100% - 10px);
     margin: 5px;
+    border-radius: 20px;
 }
 .oszlop42 p {
     margin: 5px;
@@ -148,6 +152,7 @@ body {
     background-color: lightblue;
     text-align: justify;
     border-top: 1px solid white;
+    border-radius: 20px;
 }
 .main {
     width: 1000px;
@@ -163,4 +168,99 @@ body {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
+}
+#sor1{
+    width: 33%;
+    float: left; 
+    text-align: center;   
+}
+#sor1 p a{
+    font-size: 20px;
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+    text-align: center;
+}
+#sor2{
+    width: 33%;
+    float: left; 
+    border-right: 3px solid #ccc;
+    border-left: 3px solid #ccc;  
+    height: 200px;
+}
+#sor2 p{
+    font-size: 20px
+}
+#sor2 p a{
+    font-size: 20px;
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px
+}
+#sor3{
+    width: 33%;
+    float: left;    
+}
+#footer {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0;
+    background-color: #1C6758;
+    min-height: 200px   ;
+
+}
+
+.container {
+    width: 980px;
+    position: relative;
+    left: 10px;
+    top: 30px;
+    height: 500px;
+    border-radius: 20px;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.overlay {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    opacity: 0;    
+    transition: 2s ease;
+    border-radius: 20px;
+}
+.container:hover .overlay{
+    opacity: 1;
+
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    color: aqua;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*Eltolás*/
+    font-size: 50px;
+}
+.text a{
+    text-decoration: none;
+    color: aqua;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 0;
+    cursor: pointer;
 }
