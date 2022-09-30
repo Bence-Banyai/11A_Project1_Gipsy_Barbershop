@@ -30,7 +30,7 @@ img{
 }
 
 #menu {
-    width: 300px;
+    width: 370px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -69,6 +69,38 @@ img{
 
 #sor1{
     width: 100%; 
+}
+
+#sor2{
+    width: 100%;
+}
+
+iframe{
+    width: calc(50% - 10px);
+    float: left;
+    border: 5px solid gold;
+    height: 500px;
+
+}
+
+#tiktok{
+    width: calc(50% - 10px);
+    float: left;
+}
+
+blockquote{
+    width: calc(50% - 10px);
+    float: left;
+    border: 5px solid gold;
+    height: 500px;
+
+}
+
+
+#oszlop4{
+    width: calc(50% - 10px);
+    float: left;
+    border: 5px solid gold;
 }
 
 #oszlop1{
@@ -113,22 +145,50 @@ img{
     border-left: 5px solid gold;
     border-right: 5px solid gold;
     border-bottom: 5px solid gold;
+    height: 100px;
+    float: left;
+    width: 100%;
+    
 }
 
-#footer a{
-    color:gold;
-    text-align: center;
-    font-weight: bold;
-    font-style:italic ;
-    text-decoration: underline;
-    font-size: larger;
-}
+
 
 #footer p{
     color:gold;
     text-align: center;
     font-weight: bold;
     font-style:italic ;
-    text-decoration: underline;
+    text-decoration: none;
+    font-size: larger;
+}
+
+#footer ol li{
+    
+    color: gold;
+    overflow: hidden;
+    margin-right: 20px;
+    
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+#footer #link{
+    color:gold;
+    text-align: center;
+    font-weight: bold;
+    font-style:italic ;
+    text-decoration: none;
+    font-size: larger;
+}
+
+#fh{
+    color:gold;
+    text-align: center;
+    font-weight: bold;
+    font-style:italic ;
+    text-decoration: none;
     font-size: larger;
 }
