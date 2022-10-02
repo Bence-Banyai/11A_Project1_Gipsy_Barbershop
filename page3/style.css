@@ -9,7 +9,7 @@ body{
     height: 300px;
     background: url(./img/Backroomsgif.gif);
     background-size:cover;
-    background-position-y:-250px;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -61,6 +61,8 @@ body{
 
 #main {
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container{
@@ -88,14 +90,14 @@ body{
 }
 .container:hover .overlay{
     opacity: 1;
-    height: 60%;
+    height: 40%;
 }
 
 .text{
     font-size: 30px;
     color: white;
     position: absolute;
-    top:20%;
+    bottom: 10%;
     letter-spacing: 2px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform: uppercase;
