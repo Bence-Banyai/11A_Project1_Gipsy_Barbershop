@@ -11,26 +11,26 @@
 <body>
     <script>
         var body = document.getElementsByTagName('body')[0];
-        body.style.backgroundColor = 'green';
+        body.style.backgroundColor = '#EEE3CB';
         window.onscroll = function (event) {
             var scroll = window.pageYOffset;
             if (scroll < 300) {
-                // green
-                body.style.backgroundColor = 'green';
+            
+                body.style.backgroundColor = '#EEE3CB';
             } else if (scroll >= 300 && scroll < 600) {
-                // yellow
-                body.style.backgroundColor = 'yellow';
+            
+                body.style.backgroundColor = '#B7C4CF';
             } else if (scroll >= 600 && scroll < 1200) {
-                // blue
-                body.style.backgroundColor = 'blue';
+        
+                body.style.backgroundColor = '#D7C0AE';
             } else if (scroll >= 1200 && scroll < 1800) {
-                // orange
-                body.style.backgroundColor = 'orange';
+        
+                body.style.backgroundColor = '#967E76';
             } else if (scroll >= 1800 && scroll < 3000) {
-                // red
-                body.style.backgroundColor = 'red';
+                
+                body.style.backgroundColor = '#967E76';
             } else {
-                // purple
+                
                 body.style.backgroundColor = 'purple';
             }
         }
